@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color:gray;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -14,7 +14,7 @@ header {
 nav.sticky {
     position: sticky;
     top: 0;
-    background-color: #333;
+    background-color:gray;
 }
 
 nav ul {
@@ -63,9 +63,15 @@ th, td {
 }
 
 .registration-form input[type="text"],
+.registration-form input[type="Last Name"],
+
+
 .registration-form input[type="email"],
-.registration-form input[type="number"],
-.registration-form input[type="password"] {
+.registration-form input[type="Date of birth"],
+.registration-form input[type="Age"],
+
+.registration-form input[type="Password"],
+.registration-form input[type=" confirm password"] {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
